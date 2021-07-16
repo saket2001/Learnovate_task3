@@ -316,6 +316,7 @@ section h2 .close-btn button {
   outline: 0;
   border: 0;
   font-size: 1.2rem;
+  background-color: transparent;
 }
 
 section .product_container {
