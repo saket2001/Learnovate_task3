@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XYZ General Store</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+    <script defer type="module" src="./js/controller.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="nav__logo">
+                <i class="fas fa-store fa-lg"></i>
+                XYZ STORE
+            </div>
+            <div id="nav__item">
+                <i class="fa fa-phone-square fa-lg" aria-hidden="true"></i>
+                255 0129121
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="heading">
+            <p class="tags">Electronics</p>
+            <p class="tags" style="font-weight: 700; color:#2c2b2b;">All Mobiles</p>
+            <p class="tags">Smart phones</p>
+        </div>
+        <div class="products_container">
+            <div class="product" data-id="1">
+                <img src="https://images-eu.ssl-images-amazon.com/images/I/31OEe720ujL._AC_SX368_.jpg"
+                    alt="product image">
+                <div class="product__title">Mi 10i 5G</div>
+                <div class="product__price">
+                    <div class="price">21,999 ₹</div>
+                    <div class="price cut_throw">24,999 ₹</div>
+                </div>
+                <div class="product__stars">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half" aria-hidden="true"></i>
+                </div>
+                <div class="product__action">
+                    <button class="view_btn">View product</button>
+                </div>
+            </div>
+            <div class="product" data-id="2">
+                <img src="https://images-eu.ssl-images-amazon.com/images/I/41446q-VWuL._AC_SX368_.jpg"
+                    alt="product image">
+                <div class="product__title">Samsung Galaxy M42 5G</div>
+                <div class="product__price">
+                    <div class="price">23,999 ₹</div>
+                    <div class="price cut_throw">29,999 ₹</div>
+                </div>
+                <div class="product__stars">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half" aria-hidden="true"></i>
+                </div>
+                <div class="product__action">
+                    <button class="view_btn">View product</button>
+                </div>
+            </div>
+            <div class="product" data-id="3">
+                <img src="https://images-eu.ssl-images-amazon.com/images/I/41I4ZIBgc3S._AC_SX184_.jpg"
+                    alt="product image">
+                <div class="product__title">OnePlus Nord CE 5G</div>
+                <div class="product__price">
+                    <div class="price">24,000 ₹</div>
+                    <div class="price cut_throw"></div>
+                </div>
+                <div class="product__stars">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <div class="product__action">
+                    <button class="view_btn">View product</button>
+                </div>
+            </div>
+            <div class="product" data-id="4">
+                <img src="https://m.media-amazon.com/images/I/71-Su4Wr0HL._AC_UL480_FMwebp_QL65_.jpg"
+                    alt="product image">
+                <div class="product__title">Samsung Galaxy M31</div>
+                <div class="product__price">
+                    <div class="price">16,999 ₹</div>
+                    <div class="price cut_throw">21,999 ₹</div>
+                </div>
+                <div class="product__stars">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half" aria-hidden="true"></i>
+                </div>
+                <div class="product__action">
+                    <button class="view_btn">View product</button>
+                </div>
+            </div>
+            <div class="product" data-id="5">
+                <img src="https://m.media-amazon.com/images/I/61CnyJ-IbML._AC_UL480_FMwebp_QL65_.jpg"
+                    alt="product image">
+                <div class="product__title">Oppo A31</div>
+                <div class="product__price">
+                    <div class="price">12,999 ₹</div>
+                    <div class="price cut_throw">15,999 ₹</div>
+                </div>
+                <div class="product__stars">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <div class="product__action">
+                    <button class="view_btn">View product</button>
+                </div>
+            </div>
+            <div class="product" data-id="6">
+                <img src="https://m.media-amazon.com/images/I/71X5I1cVfbL._AC_UL480_FMwebp_QL65_.jpg"
+                    alt="product image">
+                <div class="product__title">Redmi Note 9</div>
+                <div class="product__price">
+                    <div class="price">11,499 ₹</div>
+                    <div class="price cut_throw">14,999 ₹</div>
+                </div>
+                <div class="product__stars">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half" aria-hidden="true"></i>
+                </div>
+                <div class="product__action">
+                    <button class="view_btn">View product</button>
+                </div>
+            </div>
+            <div class="product" data-id="7">
+                <img src="https://m.media-amazon.com/images/I/61OiHUy-bfS._AC_UL480_FMwebp_QL65_.jpg"
+                    alt="product image">
+                <div class="product__title">Nokia G20 Smartphone</div>
+                <div class="product__price">
+                    <div class="price">12,999 ₹</div>
+                    <div class="price cut_throw">14,999 ₹</div>
+                </div>
+                <div class="product__stars">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half" aria-hidden="true"></i>
+                </div>
+                <div class="product__action">
+                    <button class="view_btn">View product</button>
+                </div>
+            </div>
+            <div class="product" data-id="8">
+                <img src="https://m.media-amazon.com/images/I/714QWDxXgNL._AC_UL480_FMwebp_QL65_.jpg"
+                    alt="product image">
+                <div class="product__title">Samsung Galaxy M12</div>
+                <div class="product__price">
+                    <div class="price">13,499 ₹</div>
+                    <div class="price cut_throw">15,999 ₹</div>
+                </div>
+                <div class="product__stars">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <div class="product__action">
+                    <button class="view_btn">View product</button>
+                </div>
+            </div>
+            <div class="product" data-id="9">
+                <img src="https://m.media-amazon.com/images/I/71tpxtLD0aL._AC_UY327_FMwebp_QL65_.jpg"
+                    alt="product image">
+                <div class="product__title">New Apple iPhone 11 (128GB)</div>
+                <div class="product__price">
+                    <div class="price">121,999 ₹</div>
+                    <div class="price cut_throw">130,999 ₹</div>
+                </div>
+                <div class="product__stars">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <div class="product__action">
+                    <button class="view_btn">View product</button>
+                </div>
+            </div>
+        </div>
+        <section class="productPage hidden">
+            <h2>
+                <div class="close-btn">
+                    <button>
+                        <i class="fa fa-arrow-left fa-lg close" aria-hidden="true"></i>
+                    </button>
+                </div>
+                Product Details
+            </h2>
+        </section>
+    </main>
+</body>
+
+</html>

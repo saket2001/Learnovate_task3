@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+$bg:#EDEEF7;
+$font-dark:#2c2b2b;
+$font-light:#524e4e;
+$button-bg:#7868E6;
+$box-shadow:11px 11px 20px #dadada,
+-11px -11px 20px #ffffff;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-size: 20px;
+    font-weight: 400;
+    width: 100%;
+    font-family: 'Comfortaa',
+        cursive;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: $bg;
+}
