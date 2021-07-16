@@ -61,11 +61,7 @@ view_buttons.forEach((view_btn) => {
                             </div>
                         </div>
                         <div class="product__stars">
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
+                          ${selectedProduct.rating}
                         </div>
                         <div class="product__about">
                             ${selectedProduct.about}
